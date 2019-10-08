@@ -48,6 +48,11 @@ missing
 num_missing <- sapply(missing, sum)
 num_missing
 
+# 10월 8일 GIT 테스트
+hayoon %>%
+  group_by(disease) %>%
+  tally()
+
 
 
 
